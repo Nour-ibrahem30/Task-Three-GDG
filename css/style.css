@@ -510,3 +510,16 @@ footer .Name {
   font-family: ui-monospace;
   font-size: 18px;
 }/*# sourceMappingURL=main.css.map */
+
+/* Fixed Navbar */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.hero {
+  margin-top: 120px;
+}

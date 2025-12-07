@@ -78,10 +78,12 @@ header {
     padding: 20px 0;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
     background-color: #f5f3ff;
-    border-radius: 15px;
-    margin-bottom: 30px;
     position: fixed;
-    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    margin-bottom: 30px;
 
     nav {
         display: flex;
@@ -151,7 +153,7 @@ header {
 // End Header
 // Start Hero Section
 .hero {
-    margin: 120px;
+    margin-top: 120px;
 
     .content-hero {
         display: flex;
