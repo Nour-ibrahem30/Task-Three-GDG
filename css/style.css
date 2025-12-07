@@ -133,6 +133,9 @@ header nav .links ul li:hover::before, header nav .links ul li.active::before {
   width: 100%;
 }
 
+.hero {
+  margin: 120px;
+}
 .hero .content-hero {
   display: flex;
   justify-content: center;
